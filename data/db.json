@@ -1,0 +1,28 @@
+{
+	"blogs": [
+		{
+			"title": "My new post",
+			"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius expedita atque cumque eum. Eaque veniam nostrum necessitatibus, accusantium unde repellat!",
+			"author": "Chase",
+			"id": 1
+		},
+		{
+			"title": "Fb now Meta",
+			"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius expedita atque cumque eum. Eaque veniam nostrum necessitatibus, accusantium unde repellat!",
+			"author": "ula",
+			"id": 2
+		},
+		{
+			"title": "Jlo in the gym",
+			"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius expedita atque cumque eum. Eaque veniam nostrum necessitatibus, accusantium unde repellat!",
+			"author": "Chase",
+			"id": 3
+		},
+		{
+			"title": "Competition coming up",
+			"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius expedita atque cumque eum. Eaque veniam nostrum necessitatibus, accusantium unde repellat!",
+			"author": "ula",
+			"id": 4
+		}
+	]
+}
