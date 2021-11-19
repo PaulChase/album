@@ -8,7 +8,7 @@ const Home = () => {
 	const [isLoading, setIsLoading] = useState(true);
 	const [term, setTerm] = useState("");
 	const [category, setCategory] = useState("");
-	const [categories, setCategories] = useState([
+	const [categories] = useState([
 		"backgrounds",
 		"fashion",
 		"science",
@@ -45,6 +45,7 @@ const Home = () => {
 			<div className="p-2 overflow-auto whitespace-nowrap">
 				{categories.map((category, i) => (
 					<button
+						key={i}
 						onClick={() => {
 							setCategory(category);
 							toggleClass();
@@ -59,7 +60,7 @@ const Home = () => {
 			{isLoading ? (
 				<div className=" fixed bg-gray-200 top-0 left-0 w-full h-full flex justify-center items-center">
 					{" "}
-					<h3> Photos are loading</h3>{" "}
+					<h3> Loading Photos...</h3>{" "}
 				</div>
 			) : (
 				<div className=" p-3 grid grid-cols-1 lg:grid-cols-4 gap-3">
